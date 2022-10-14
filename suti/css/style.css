@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+	padding:0;
+}
+#nev {
+	background-color: lightgray;
+	padding:20px;
+}
+#info {
+	background-color: black;
+	color: white;
+	position: fixed;
+	bottom:0;
+	right:0;
+	width:100%;
+	padding: 20px;
+	font-size: 16pt;
+	text-align: right;
+	animation-name: fadeDown;
+	animation-duration: 3s;
+}
+@keyframes fadeDown {
+  0% {bottom:600px;}
+  100%  {bottom:0;}
+}
+button {
+	margin: auto 5px;
+	padding: 5px;
+	cursor: pointer;
+}
